@@ -1,0 +1,30 @@
+
+  .containerKalender {
+    background-color: #fff;
+    border-radius: 5px;
+    width: auto;
+    margin: 0;
+  }
+  .containerKalender .month {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 1px;
+    
+  }
+  .containerKalender .day {
+    text-align: center;
+    font-size: 15px;
+  }
+  .containerKalender .date {
+    text-align: center;
+    margin: 0;
+    font-size: 33px;
+    font-weight: bold;
+  }
+  .containerKalender .year {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
