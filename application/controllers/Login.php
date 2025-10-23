@@ -20,7 +20,7 @@ class Login extends CI_Controller
 				'logged_in' => TRUE
 			);
 			$this->session->set_userdata($data);
-			redirect('user/dashboardUser');
+			redirect('index.php/surat');
 		} else if ($password == 'admin123' and $username == 'admin') {
 			$data = array(
 				'username' => $username,
